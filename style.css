@@ -17,8 +17,8 @@ body{
         0%{left: 0%}
         100%{left: 100%}
       }
-
-      #img{
+{}
+     #img{
           position: absolute;
           width: 2rem;
           height: 1rem;
