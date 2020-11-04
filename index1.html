@@ -11,7 +11,7 @@
      <nav>
         <div>
             <ul id="ul" >   
-                <li><a href="index.html" >Hom</a></li>   
+                <li><a href="index.html" >Home</a></li>   
                 <li><a style="background-color: blue;" href="index.1html">cars</a></li>
                 <li><a href="index2.html">airplane</a></li>
                 <li><a href="index3.html">bus</a></li>
@@ -30,7 +30,7 @@
                  praesentium laudantium facere doloremque autem 
                  voluptatum adipisci quaerat asperiores, officia
                   voluptates ex nesciunt, et quod.</p>
-              <input class="btn" type="submit" value="buy" >
+              <input class="btn" type="submit" onclick="button()" value="buy" >
         </div>
         <div>
         <img src="c2.jpg"  height="300px" width="550px" alt="Fail to load">
@@ -39,7 +39,7 @@
              praesentium laudantium facere doloremque autem 
              voluptatum adipisci quaerat asperiores, officia
               voluptates ex nesciunt, et quod.</p>
-          <input class="btn" type="submit" value="buy" >
+          <input class="btn" type="submit" onclick="button()" value="buy" >
     </div>
     <div>
            <img src="c3.jpg"  height="300px" width="550px" alt="Fail to load">
@@ -48,7 +48,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" type="submit" onclick="button()" value="buy" >
 </div>
 <div>
     <img src="c4.jpg" height="300px" width="550px" alt="Fail to load">
@@ -57,7 +57,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" type="submit" onclick="button()" value="buy" >
 </div>
 <div>
     <img src="c5.jpg" height="300px" width="550px" alt="Fail to load">
@@ -66,7 +66,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" type="submit" onclick="button()" value="buy" >
 </div>
 <div>
     <img src="c6.jpg" height="300px" width="550px" alt="Fail to load">
@@ -75,7 +75,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" type="submit" onclick="button()" value="buy" >
 </div>
 <div>
     <img src="c7.jpg" height="300px" width="550px" alt="Fail to load">
@@ -84,7 +84,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" type="submit"  onclick="button()" value="buy" >
 </div>
 <div>
     <img src="c8.jpg" height="300px" width="550px" alt="Fail to load">
@@ -93,7 +93,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn"  onclick="button()" type="submit" value="buy" >
 </div>
 <div>
     <img src="c9.jpg" height="300px" width="550px" alt="Fail to load">
@@ -102,7 +102,7 @@
          praesentium laudantium facere doloremque autem 
          voluptatum adipisci quaerat asperiores, officia
           voluptates ex nesciunt, et quod.</p>
-      <input class="btn" type="submit" value="buy" >
+      <input class="btn" onclick="button()" type="submit" value="buy" >
 </div>
 
     </div>
@@ -110,8 +110,12 @@
     <footer>
         <p>copy right &copy; 2020, My Website </p>
     </footer>   
-      <script>
-        window.alert("Welcome to my website it si in pross right no so pleas refres every 10minetesyou will see some differents things.");
-    </script>
+       <script>
+function button(){
+     //window.onclick = function() { alert("you bouit it")};
+     window.addEventListener('click', function() { alert("you bouit i....t....")});
+}
+
+</script>
 </body>
 </html>
